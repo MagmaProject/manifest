@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="magma"
+           fetch="https://github.com/MagmaProject"
+           revision="refs/heads/ten" />
+
+  <!-- Magma -->
+  <project path="manifest" name="manifest" remote="magma" />
+  <project path="build/make" name="build_make" remote="magma" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="magma" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="bionic" remote="magma" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="magma" />
+  <project path="development" name="development" remote="magma" />
+  <project path="device/magma/sepolicy" name="device_magma_sepolicy" remote="magma" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="magma" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="magma" />=
+  <project path="frameworks/av" name="frameworks_av" remote="magma" />
+  <project path="frameworks/base" name="frameworks_base" remote="magma" />
+  <project path="frameworks/native" name="frameworks_native" remote="magma" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="magma" />
+  <project path="hardware/magma/interfaces" name="hardware_magma_interfaces" remote="magma" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="magma" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="magma" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="magma" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="magma" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="magma" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="magma" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="magma" clone-depth="1" />
+  <project path="system/core" name="system_core" remote="magma" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="magma" />
+  <project path="system/update_engine" name="system_update_engine" remote="magma" />
+  <project path="system/vold" name="system_vold" remote="magma" />
+  <project path="vendor/magma" name="vendor_magma" remote="magma" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="magma" />
+
+</manifest>
