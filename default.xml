@@ -772,5 +772,7 @@
   <include name="snippets/remove.xml" />
   <!-- Track Magma repos -->
   <include name="snippets/magma.xml" />
+  <!-- Track LineageOS repos -->
+  <include name="snippets/lineage.xml" />
 
 </manifest>
