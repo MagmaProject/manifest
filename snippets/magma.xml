@@ -26,6 +26,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" remote="magma" />
   <project path="bionic" name="bionic" remote="magma" />
   <project path="bootable/recovery" name="bootable_recovery" remote="magma" />
   <project path="development" name="development" remote="magma" />
@@ -38,11 +39,15 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="magma" />
   <project path="hardware/magma/interfaces" name="hardware_magma_interfaces" remote="magma" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="magma" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="magma" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="magma" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="magma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="magma" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="magma" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="magma" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="magma" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="magma" />
+  <project path="platform_testing" name="platform_testing" remote="magma" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="magma" clone-depth="1" />
   <project path="system/core" name="system_core" remote="magma" />
   <project path="system/sepolicy" name="system_sepolicy" remote="magma" />
