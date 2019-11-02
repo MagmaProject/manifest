@@ -54,6 +54,5 @@
   <project path="system/update_engine" name="system_update_engine" remote="magma" />
   <project path="system/vold" name="system_vold" remote="magma" />
   <project path="vendor/magma" name="vendor_magma" remote="magma" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="magma" />
 
 </manifest>
