@@ -32,20 +32,29 @@
   <project path="development" name="development" remote="magma" />
   <project path="device/magma/sepolicy" name="device_magma_sepolicy" remote="magma" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="magma" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy" remote="magma" />=
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="magma" revision="ten-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="magma" revision="ten-legacy-um" />
   <project path="frameworks/av" name="frameworks_av" remote="magma" />
   <project path="frameworks/base" name="frameworks_base" remote="magma" />
   <project path="frameworks/native" name="frameworks_native" remote="magma" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="magma" />
   <project path="hardware/magma/interfaces" name="hardware_magma_interfaces" remote="magma" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="magma" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="magma" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="magma" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="magma" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="magma" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="magma" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="magma" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="magma" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="magma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="magma" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="magma" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="magma" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="magma" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="magma" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="magma" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="magma" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="magma" />
   <project path="platform_testing" name="platform_testing" remote="magma" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="magma" clone-depth="1" />
