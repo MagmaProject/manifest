@@ -11,6 +11,10 @@
            fetch="https://github.com/MagmaProject"
            revision="refs/heads/ten" />
 
+  <remote  name="devices"
+           fetch="https://github.com/MagmaDevices"
+           revision="refs/heads/ten" />
+
   <!-- Magma -->
   <project path="manifest" name="manifest" remote="magma" />
   <project path="build/make" name="build_make" remote="magma" >
