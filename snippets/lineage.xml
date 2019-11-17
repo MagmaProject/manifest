@@ -20,10 +20,6 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
 
-  <!-- Frameworks -->
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="lineage" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" />
-
   <!-- Hardware -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />

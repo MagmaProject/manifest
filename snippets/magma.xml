@@ -38,9 +38,13 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="magma" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="magma" revision="ten-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="magma" revision="ten-legacy-um" />
+  <project path="external/sqlite" name="external_sqlite" remote="magma" />
   <project path="frameworks/av" name="frameworks_av" remote="magma" />
   <project path="frameworks/base" name="frameworks_base" remote="magma" />
   <project path="frameworks/native" name="frameworks_native" remote="magma" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="magma" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="magma" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="magma" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="magma" />
   <project path="hardware/magma/interfaces" name="hardware_magma_interfaces" remote="magma" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="magma" />
