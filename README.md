@@ -5,7 +5,7 @@ To initialize your local repository, use this command:
  Then to sync up:
 
 ```bash
-repo sync -f --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
+repo sync --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
 ```
 
 Build Magma
