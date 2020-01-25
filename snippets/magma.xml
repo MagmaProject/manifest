@@ -39,6 +39,7 @@
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="magma" revision="ten-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="magma" revision="ten-legacy-um" />
   <project path="external/sqlite" name="external_sqlite" remote="magma" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="magma" />
   <project path="frameworks/av" name="frameworks_av" remote="magma" />
   <project path="frameworks/base" name="frameworks_base" remote="magma" />
   <project path="frameworks/native" name="frameworks_native" remote="magma" />
@@ -53,6 +54,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="magma" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="magma" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="magma" />
+  <project path="packages/apps/MagmaSettings" name="packages_apps_MagmaSettings" remote="magma" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="magma" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="magma" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="magma" />
